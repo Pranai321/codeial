@@ -1,0 +1,15 @@
+{
+  "name": "codeial",
+  "version": "1.0.0",
+  "description": "Codeial Website which can have log in log out",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pranai Reddy Kalva",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
