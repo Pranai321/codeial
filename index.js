@@ -6,7 +6,7 @@ const app = express();
 
 app.use('/',require('./routes/index.js'));
 
-
+app.set('view engine', './views');
 
 
 
