@@ -4,13 +4,11 @@ const port = 8000;
 const app = express();
 
 
+app.use('/',require('./routes/index.js'));
 
 
 
 
-app.get('/',function(req,res){
-    return res.send('Hola');
-})
 
 
 app.listen(port, function(err){
